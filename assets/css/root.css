@@ -12,8 +12,17 @@
     --lh-52: 52px;
     --lh-57: 57px;
     --lh-61: 61px;
-}
 
+    --white:#fff;
+    --black:#111111;
+    --lime:#BAFF00;
+}
+.color-black{
+    color: var(--black);
+}
+.color-white{
+    color: var(--white);
+}
 
 .lh-14{
     line-height: var(--lh-14);
