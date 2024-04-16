@@ -69,12 +69,22 @@
 .pb-113{
     padding-bottom: 113px;
 }
+.pt-101{
+    padding-top: 101px;
+
+} 
+.pb-101{
+    padding-bottom: 101px;
+
+}
 .pt-137{
     padding-top: 137px;
 }
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
-
+.mt-10{
+    margin-top: 10px;
+}
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
 .gap-10{
@@ -88,11 +98,17 @@
 }
 /* -------------------------------------------gap */
 /* -------------------------------------------width */
+.max-w-476{
+    max-width: 476px;
+}
 .max-w-513{
     max-width: 513px;
 }
 .max-w-527{
     max-width: 527px;
+}
+.max-w-548{
+    max-width: 548px;
 }
 .max-w-582{
     max-width: 582px;
@@ -128,6 +144,25 @@
     border: 1px solid var(--lime);
 }
 /* -------------------------------------------card*/
+/* -------------------------------------------background-img*/
+.bg-3rd{
+    /* background-image: url('../images/webp/frame2.png'); */
+    background-position: center;
+    background-size: cover;
+
+}
+.hero-bg{
+    background-image: url(../images/webp/hero.jfif);
+    background-position: center;
+    background-size: cover;    
+}
+.bg-5th{
+    /* background-image: url('../images/webp/Frame4.png'); */
+    background-position: center;
+    background-size: cover; 
+    
+}
+/* -------------------------------------------background-img*/
 
 
 
@@ -162,11 +197,7 @@
     transition: all 300ms linear;
     
 }
-.hero-bg{
-    background-image: url(../images/webp/hero.jfif);
-    background-position: center;
-    background-size: cover;    
-}
+
 .gradient-box{
     height: 126px;
     background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
@@ -195,12 +226,7 @@
 .left-border{
     border-left: 2px solid var(--lime);
 }
-.bg-3rd{
-    /* background-image: url('../images/webp/frame2.png'); */
-    background-position: center;
-    background-size: cover;
 
-}
 
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
