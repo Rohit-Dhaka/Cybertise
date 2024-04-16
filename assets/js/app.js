@@ -37,4 +37,4 @@ function topFunction() {
 // -------------year
 const d = new Date();
 let year = d.getFullYear();
-document.querySelector(".Year").innerHTML = year
+document.getElementById("year").innerHTML = year

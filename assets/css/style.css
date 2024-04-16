@@ -37,6 +37,9 @@
 .pt-12{
     padding-top: 12px;
 }
+.pb-12{
+    padding-bottom: 12px;
+}
 .pt-15{
     padding-top: 15px;
 }
@@ -279,6 +282,9 @@
 .media-icon:hover{
     transform: translateY(-7px);
 
+}
+.top-border{
+    border-top: 0.5px solid #6E706D;
 }
 
 /* ------------------------------------------ */
