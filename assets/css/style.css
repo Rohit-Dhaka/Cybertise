@@ -34,6 +34,9 @@
 .pt-10{
     padding-top: 10px;
 }
+.pt-12{
+    padding-top: 12px;
+}
 .pt-20{
     padding-top: 20px;
 }
@@ -74,6 +77,9 @@
 }
 .pb-113{
     padding-bottom: 113px;
+}
+.pb-62{
+    padding-bottom: 62px;
 }
 .pt-101{
     padding-top: 101px;
@@ -150,6 +156,9 @@
 }
 .opacity-80{
     opacity: 80%;
+}
+.opacity-90{
+    opacity: 90%;
 }
 /* -------------------------------------------opacity*/
 /* -------------------------------------------card*/
@@ -296,7 +305,7 @@
     margin: 0 auto;
     left: 0;
     transition: all 300ms linear;
-    background-color: black;
+    background-color: red;
 }
 
 .underline:hover::after {
