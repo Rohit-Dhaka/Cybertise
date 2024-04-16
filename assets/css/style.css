@@ -34,8 +34,14 @@
 .pt-10{
     padding-top: 10px;
 }
+.pt-20{
+    padding-top: 20px;
+}
 .pt-23{
     padding-top: 23px;
+}
+.pt-40{
+    padding-top: 40px;
 }
 .pt-60{
     padding-top: 60px;
@@ -43,8 +49,17 @@
 .pb-35{
     padding-bottom: 35px;
 }
+.pb-80{
+    padding-bottom: 80px;
+}
 .pt-103{
     padding-top: 103px;
+}
+.pt-114{
+    padding-top: 114px;
+}
+.pb-113{
+    padding-bottom: 113px;
 }
 .pt-137{
     padding-top: 137px;
@@ -65,12 +80,18 @@
 }
 /* -------------------------------------------gap */
 /* -------------------------------------------width */
+.max-w-513{
+    max-width: 513px;
+}
 .max-w-527{
     max-width: 527px;
 }
 .max-w-582{
     max-width: 582px;
 
+}
+.max-w-628{
+    max-width: 628px;
 }
 .max-w-1140 {
     max-width: 1140px !important;
@@ -89,6 +110,16 @@
     opacity: 80%;
 }
 /* -------------------------------------------opacity*/
+/* -------------------------------------------card*/
+.mycard{
+    border: 1px solid #43594E;
+    border-radius: 16px;
+    padding: 40px 22px 40px;
+}
+.mycard:hover{
+    border: 1px solid var(--lime);
+}
+/* -------------------------------------------card*/
 
 
 
@@ -133,6 +164,16 @@
     background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
     bottom: -29px;
 }
+.gradient-box-2{
+    height: 104px;
+    background: linear-gradient(180deg,  #0C0C0C 25.4%, rgba(17, 17, 16, 0) 25.4%, rgba(12, 12, 12, 0.44)  70.63%);
+    top: -20px;
+}
+.gradient-box-3{
+    height: 104px;
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0) 25.4%, #0C0C0C 70.63%);
+    bottom: -34px;
+}
 .box-1{
     /* background-image: url('../images/webp/box-1.jfif'); */
     max-width: 1036px;
@@ -146,6 +187,13 @@
 .left-border{
     border-left: 2px solid var(--lime);
 }
+.bg-3rd{
+    /* background-image: url('../images/webp/frame2.png'); */
+    background-position: center;
+    background-size: cover;
+
+}
+
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
 #myBtn {
