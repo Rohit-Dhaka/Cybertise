@@ -80,6 +80,9 @@
     padding-bottom: 101px;
 
 }
+.pb-171{
+    padding-bottom: 171px;
+}
 .pt-137{
     padding-top: 137px;
 }
@@ -87,6 +90,9 @@
 /* -------------------------------------------margin */
 .mt-10{
     margin-top: 10px;
+}
+.mt-32{
+    margin-top: 32px;
 }
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
@@ -136,6 +142,9 @@
 
 /* -------------------------------------------btn */
 /* -------------------------------------------opacity*/
+.opacity-60{
+    opacity: 60%;
+}
 .opacity-80{
     opacity: 80%;
 }
@@ -233,6 +242,16 @@
     border-left: 2px solid var(--lime);
 }
 
+.input-box{
+    max-width: 518px;
+    border: 1px solid #5D800B;
+    border-radius: 48px;
+    padding: 1px 1px 1px 16px;
+}
+.outline-none{
+    outline: none;
+
+}
 
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
