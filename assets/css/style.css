@@ -46,6 +46,9 @@
 .pt-60{
     padding-top: 60px;
 }
+.pt-79{
+    padding-top: 79px;
+}
 .pb-35{
     padding-bottom: 35px;
 }
@@ -116,6 +119,9 @@
 }
 .max-w-628{
     max-width: 628px;
+}
+.max-w-725{
+    max-width: 725px;
 }
 .max-w-1140 {
     max-width: 1140px !important;
