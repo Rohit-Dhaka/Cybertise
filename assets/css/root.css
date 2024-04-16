@@ -16,6 +16,13 @@
     --white:#fff;
     --black:#111111;
     --lime:#BAFF00;
+    --bg-black:#0C0C0C;
+}
+.bg-color{
+    background-color: var(--bg-black);
+}
+.color-lime{
+    color: var(--lime);
 }
 .color-black{
     color: var(--black);

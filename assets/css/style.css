@@ -34,6 +34,9 @@
 .pt-23{
     padding-top: 23px;
 }
+.pt-60{
+    padding-top: 60px;
+}
 .pb-35{
     padding-bottom: 35px;
 }
@@ -42,6 +45,7 @@
 }
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
+
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
 .gap-10{
@@ -72,7 +76,7 @@
 
 /* -------------------------------------------btn */
 /* -------------------------------------------opacity*/
-.opacity-8{
+.opacity-80{
     opacity: 80%;
 }
 /* -------------------------------------------opacity*/
@@ -113,14 +117,22 @@
 .hero-bg{
     background-image: url(../images/webp/hero.jfif);
     background-position: center;
-    background-size: cover;
-    
-
+    background-size: cover;    
 }
 .gradient-box{
     height: 126px;
     background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
     bottom: -29px;
+}
+.box-1{
+    /* background-image: url('../images/webp/box-1.jfif'); */
+    max-width: 1036px;
+    /* height: 166px; */
+    border-radius: 24px;
+    border: 1px solid #3C3C3B;
+}
+.min-box{
+    padding: 36px 0 35px;
 }
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
