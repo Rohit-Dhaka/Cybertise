@@ -1,0 +1,91 @@
+:root {
+    --fs-sm: 14px;    
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 48px;
+    --fs-2xl: 64px;
+
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-33: 33px;
+    --lh-52: 52px;
+    --lh-57: 57px;
+    --lh-61: 61px;
+}
+
+Outfit
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+.lh-{
+    line-height: var(--lh-);
+}
+
+
+
+
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-2xl{
+    font-size: var(--fs-2xl);
+}
+.fs-3xl{
+    font-size: var(--fs-3xl);
+}
+.fs-4xl{
+    font-size: var(--fs-4xl);
+}
+.fs-5xl{
+    font-size: var(--fs-5xl);
+}
+.fs-6xl{
+    font-size: var(--fs-6xl);
+}
+.fs-7xl{
+    font-size: var(--fs-7xl);
+}
+
+
+@media (min-width:575px) {
+    :root {
+                  
+    }   
+}
+
+@media (min-width:992px) {
+    :root {
+                  
+    }   
+}
