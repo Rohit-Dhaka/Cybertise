@@ -89,6 +89,13 @@
     transition: all 300ms linear;
     
 }
+.hero-bg{
+    background-image: url(../images/webp/hero.jfif);
+    background-position: center;
+    background-size: cover;
+    
+
+}
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
 #myBtn {
@@ -132,10 +139,10 @@
 
 /* ------------------------------------------underline */
 /* ------------------------------------------navbar */
-.Navbar{
+.navbar-box{
     padding: 22px 0;
-    backdrop-filter: blur(90px) 1
-    ;
+    backdrop-filter: blur(5px);
+    background-color: #12121299;
 }
 .hamburger {
     display: none;
