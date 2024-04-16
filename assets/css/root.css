@@ -15,26 +15,26 @@
 }
 
 Outfit
-.lh-{
-    line-height: var(--lh-);
+.lh-14{
+    line-height: var(--lh-14);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-24{
+    line-height: var(--lh-24);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-26{
+    line-height: var(--lh-26);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-33{
+    line-height: var(--lh-33);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-52{
+    line-height: var(--lh-52);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-57{
+    line-height: var(--lh-57);
 }
-.lh-{
-    line-height: var(--lh-);
+.lh-61{
+    line-height: var(--lh-61);
 }
 .lh-{
     line-height: var(--lh-);
@@ -60,21 +60,6 @@ Outfit
 }
 .fs-2xl{
     font-size: var(--fs-2xl);
-}
-.fs-3xl{
-    font-size: var(--fs-3xl);
-}
-.fs-4xl{
-    font-size: var(--fs-4xl);
-}
-.fs-5xl{
-    font-size: var(--fs-5xl);
-}
-.fs-6xl{
-    font-size: var(--fs-6xl);
-}
-.fs-7xl{
-    font-size: var(--fs-7xl);
 }
 
 
