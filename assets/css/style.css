@@ -31,9 +31,7 @@
 }  
 /* -------------------------------------------side-scroll */
 /* -------------------------------------------padding */
-.pl-20{
-    padding-left: 20px;
-}
+
 .pt-10{
     padding-top: 10px;
 }
@@ -109,6 +107,9 @@
 }
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
+.mt-one{
+    margin-top: -1px;
+}
 .mt-10{
     margin-top: 10px;
 }
@@ -128,6 +129,10 @@
 }
 /* -------------------------------------------gap */
 /* -------------------------------------------width */
+.min-w-369{
+    min-width: 369px;
+
+}
 .max-w-373{
     max-width: 373px;
 }
@@ -140,9 +145,7 @@
 .max-w-527{
     max-width: 527px;
 }
-.max-w-548{
-    max-width: 548px;
-}
+
 .max-w-582{
     max-width: 582px;
 
@@ -184,6 +187,7 @@
 .mycard{
     border: 1px solid var(--gray-400);
     border-radius: 16px;
+    background-image: url(../images/webp/service-bg.png);
     padding: 40px 22px 40px;
 }
 .mycard:hover{
@@ -192,33 +196,79 @@
 /* -------------------------------------------card*/
 /* -------------------------------------------background-img*/
 .bg-3rd{
-    /* background-image: url('../images/webp/frame2.png'); */
+    background-image: url('../images/webp/Section3.webp');
     background-position: center;
     background-size: cover;
+    
+
 
 }
 .hero-bg{
     background-image: url(../images/webp/hero.jfif);
+    
     background-position: center;
     background-size: cover;    
+    
+    
 }
 .bg-5th{
-    /* background-image: url('../images/webp/Frame4.png'); */
+    background-image: url('../images/webp/Frame6.png');
     background-position: center;
     background-size: cover; 
     
 }
 /* -------------------------------------------background-img*/
 /* -------------------------------------------Ellipse*/
+.Ellipse21{
+    left: 15%;
+    top: 3%;
+
+}
+.Ellipse41{
+    left: 0;
+    top: -40%;
+}
+.Ellipse51{
+    right: 0;
+    top: -20%;
+
+}
+.Ellipse61{
+    right: 0;
+    top: -10%;
+}
+.Ellipse71{
+    top: 0;
+
+}
+.frame52{
+    right: 0;
+    top: -40%;
+}
 .Ellipse839{
     bottom: 0;
     right: 0;
 
 }
+.Ellipse844{
+    left: 0;
+    top: 6%;
+}
+.Ellipse8392{
+    top: 5%;
+    right: 0;
+}
 /* -------------------------------------------Ellipse*/
 
 
-
+.liner-box{
+    background-image: url(../images/webp/hero_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -258,18 +308,23 @@
 }
 .gradient-box-2{
     height: 104px;
-    background: linear-gradient(180deg,  #0C0C0C 25.4%, rgba(17, 17, 16, 0) 25.4%, rgba(12, 12, 12, 0.44)  70.63%);
+    background: linear-gradient(0deg ,   #11111000 44%,  #0C0C0C 100%);
+    /* background: linear-gradient(0deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0) 25.4%, #0C0C0C 70.63%); */
+
+    
     top: -20px;
 }
 .gradient-box-3{
     height: 104px;
-    background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0) 25.4%, #0C0C0C 70.63%);
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0.44) 25.4%, rgba(17, 17, 16, 0.29) 25.4%, #0C0C0C 70.63%);
+    
     bottom: -34px;
-}
+} 
 .box-1{
     /* background-image: url('../images/webp/box-1.jfif'); */
     max-width: 1036px;
     /* height: 166px; */
+    background-image: url(../images/webp/Frame5.png);
     border-radius: 24px;
     border: 1px solid var(--gray-300);
 }
@@ -282,7 +337,7 @@
 
 .input-box{
     max-width: 518px;
-    border: 1px solid var(--lime-100);
+    /* border: 1px solid var(--lime-100); */
     border-radius: 48px;
     padding: 1px 1px 1px 16px;
 }
@@ -294,6 +349,14 @@
     border: 1px solid var(--gray-200);
     border-radius: 24px;
     padding: 64px  30px 64px;
+    background-image: url('../images/webp/Frame7.png');
+    
+    background-position: center;
+    background-size: cover;
+
+    background: linear-gradient(97.95deg, rgba(186, 255, 0, 0.03) 3.73%, rgba(0, 178, 254, 0.03) 113.03%),
+linear-gradient(0deg, rgba(186, 255, 0, 0.02), rgba(186, 255, 0, 0.02));
+
 
 }
 .media-icon:hover{
@@ -416,11 +479,43 @@
 /* ------------------------------------------navbar */
 
 
-@media (max-width: 574.98px) {}
+@media (max-width: 574.98px) {
+    .email-input{
+        border: 1px solid var(--lime-100) !important;
+        border-radius: 48px;
+        padding:  16px 24px;
 
-@media (min-width: 575px) {}
+        
 
-@media (min-width: 768px) {}
+    }
+    .email-box{
+        
+        
+        padding: 30px  20px 30px;
+    }
+}
+
+@media (min-width: 575px) {
+    .pl-sm-20{
+        padding-left: 20px !important;
+    }
+    .max-w-sm-108{
+        max-width: 108px !important;
+    }
+    .input-box{
+        /* max-width: 518px; */
+        border: 1px solid var(--lime-100);
+        /* border-radius: 48px; */
+        
+        /* padding: 1px 1px 1px 16px; */
+    }
+}
+
+@media (min-width: 768px) {
+    .max-w-md-548{
+        max-width: 548px !important;
+    }
+}
 
 @media (min-width: 992px) {}
 
