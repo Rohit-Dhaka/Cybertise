@@ -10,6 +10,7 @@
     text-decoration: none !important;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    /* outline: 1px solid red; */
 }
 /* -------------------------------------------font-family */
 .font-Outfit{
@@ -260,6 +261,83 @@
     right: 0;
 }
 /* -------------------------------------------Ellipse*/
+/* -------------------------------------------preloder */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-black);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.container-box{
+    max-width: 400px;
+    margin:0 auto;
+    position: relative;
+  }
+  .preloader {
+    margin: 20% auto 0;
+      transform: translateZ(0);
+  }
+  
+  .preloader:before,
+  .preloader:after {
+      content: '';
+      position: absolute;
+      top: 0;
+  }
+  
+  .preloader:before,
+  .preloader:after,
+  .preloader {
+      border-radius: 50%;
+      width: 2em;
+      height: 2em;
+      animation: animation 1.2s infinite ease-in-out;
+  }
+  
+  .preloader {
+      animation-delay: -0.16s;
+  }
+  
+  .preloader:before {
+      left: -3.5em;
+      animation-delay: -0.32s;
+  }
+  
+  .preloader:after {
+      left: 3.5em;
+  }
+  
+  @keyframes animation {
+      0%,
+      80%,
+      100% {
+          box-shadow: 0 2em 0 -1em var(--lime);
+      }
+      40% {
+          box-shadow: 0 2em 0 0 var(--lime);
+      }
+  }
+
+
+
+  .bounce2 {
+    animation: bounce2 2s ease infinite;
+  }
+  @keyframes bounce2 {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-30px);}
+      60% {transform: translateY(-15px);}
+  }
+  
+
+
+/* -------------------------------------------preloder */
 
 
 .liner-box{
@@ -326,6 +404,9 @@
     max-width: 1036px;
     /* height: 166px; */
     background-image: url(../images/webp/Frame5.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
     border-radius: 24px;
     border: 1px solid var(--gray-300);
 }

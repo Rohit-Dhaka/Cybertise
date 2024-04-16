@@ -1,3 +1,6 @@
+
+
+
 // --------nav-bar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".menulist");
@@ -38,3 +41,15 @@ function topFunction() {
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year
+
+
+//------------------------pre-loder
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      let loadingOverlay = document.getElementById("loadingOverlay");
+      loadingOverlay.style.display = "none";
+      document.querySelector("body").classList.remove("overflow_hidden");
+    },3000);
+  });
+});
