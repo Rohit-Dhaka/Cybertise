@@ -276,6 +276,10 @@
     padding: 64px  30px 64px;
 
 }
+.media-icon:hover{
+    transform: translateY(-7px);
+
+}
 
 /* ------------------------------------------ */
 /* ------------------------------------------back-to-btn */
@@ -304,6 +308,7 @@
     position: absolute;
     content: '';
     height: 1px;
+
     width: 0;
     display: inline-block;
     bottom: -2px;
