@@ -16,7 +16,12 @@
     --white:#fff;
     --black:#111111;
     --lime:#BAFF00;
+    --lime-100:#5D800B;
     --bg-black:#0C0C0C;
+    --gray-100:#6E706D;
+    --gray-200:#383F3A;
+    --gray-300:#3C3C3B;
+    --gray-400:#43594E;
 }
 .bg-color{
     background-color: var(--bg-black);

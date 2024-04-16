@@ -22,11 +22,11 @@
     height: 5px;
 }
 ::-webkit-scrollbar-track {
-    background: white;
+    background: var(--black);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: var(--lime);
     border-radius: 20px;
 }  
 /* -------------------------------------------side-scroll */
@@ -163,6 +163,10 @@
     border-radius: 100px;
     background-color: var(--lime);
 }
+.btn-1:hover{
+    background: var(--white);
+    box-shadow: 0px 1px 10px 2px var(--lime);
+}
 
 /* -------------------------------------------btn */
 /* -------------------------------------------opacity*/
@@ -178,7 +182,7 @@
 /* -------------------------------------------opacity*/
 /* -------------------------------------------card*/
 .mycard{
-    border: 1px solid #43594E;
+    border: 1px solid var(--gray-400);
     border-radius: 16px;
     padding: 40px 22px 40px;
 }
@@ -260,7 +264,7 @@
     max-width: 1036px;
     /* height: 166px; */
     border-radius: 24px;
-    border: 1px solid #3C3C3B;
+    border: 1px solid var(--gray-300);
 }
 .min-box{
     padding: 36px 0 35px;
@@ -271,7 +275,7 @@
 
 .input-box{
     max-width: 518px;
-    border: 1px solid #5D800B;
+    border: 1px solid var(--lime-100);
     border-radius: 48px;
     padding: 1px 1px 1px 16px;
 }
@@ -280,7 +284,7 @@
 
 }
 .email-box{
-    border: 1px solid #383F3A;
+    border: 1px solid var(--gray-200);
     border-radius: 24px;
     padding: 64px  30px 64px;
 
@@ -290,7 +294,7 @@
 
 }
 .top-border{
-    border-top: 0.5px solid #6E706D;
+    border-top: 0.5px solid var(--gray-100);
 }
 
 /* ------------------------------------------ */
