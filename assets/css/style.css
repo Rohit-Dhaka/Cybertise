@@ -129,6 +129,24 @@
 
 /* -------------------------------------------gap */
 /* -------------------------------------------width */
+.max-w-328{
+    max-width: 328px;
+}
+.max-w-513{
+    max-width: 513px;
+}
+.max-w-520{
+    max-width: 520px;
+}
+.max-w-529{
+    max-width: 529px;
+}
+.max-w-535{
+    max-width: 535px;
+}
+.max-w-526{
+    max-width: 526px;
+}
 .min-w-369 {
     min-width: 369px;
 
@@ -208,7 +226,7 @@
     border: 1px solid var(--gray-400);
     border-radius: 16px;
     background-image: url(../images/webp/service-bg.png);
-    padding: 40px 22px 40px;
+    padding: 40px 18px 40px;
 }
 
 .mycard:hover {
@@ -499,7 +517,7 @@
     border: 1px solid var(--gray-200);
     border-radius: 24px;
     padding: 64px 30px 64px;
-    background-image: url('../images/webp/Frame7.png');
+    background-image: url('../images/webp/Slice2.png');
 
     background-position: center;
     background-size: cover;
@@ -682,9 +700,7 @@
 }
 
 @media (min-width: 768px) {
-    .max-w-md-548 {
-        max-width: 548px !important;
-    }
+   
 }
 
 @media (min-width: 992px) {
