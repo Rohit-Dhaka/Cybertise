@@ -2,7 +2,7 @@
     --fs-sm: 14px;    
     --fs-md: 16px;
     --fs-lg: 24px;
-    --fs-xl: 48px;
+    --fs-xl: 38px;
     --fs-2xl: 48px;
 
     --lh-21: 21px;
@@ -10,13 +10,15 @@
     --lh-26: 26px;
     --lh-33: 33px;
     --lh-52: 52px;
-    --lh-57: 57px;
-    --lh-61: 61px;
+    --lh-57: 48px;
+    --lh-61: 58px;
 
     --white:#fff;
     --black:#111111;
     --lime:#BAFF00;
+    --nav-bg:#12121299;
     --lime-100:#5D800B;
+    --input-bg:#BAFF000F;
     --bg-black:#0C0C0C;    
     --gray-100:#6E706D;
     --gray-200:#383F3A;
@@ -89,7 +91,7 @@
         --fs-sm: 14px;    
         --fs-md: 16px;
         --fs-lg: 24px;
-        --fs-xl: 48px;
+        --fs-xl: 42px;
         --fs-2xl: 58px;
     
         --lh-21: 21px;
@@ -97,8 +99,8 @@
         --lh-26: 26px;
         --lh-33: 33px;
         --lh-52: 52px;
-        --lh-57: 57px;
-        --lh-61: 61px;
+        --lh-57: 52px;
+        --lh-61: 50px;
                   
     }   
 }
