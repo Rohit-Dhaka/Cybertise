@@ -445,7 +445,7 @@
     max-width: 518px;
     border-radius: 48px;
     padding: 1px 1px 1px 16px;
-    background-color: var(--input-bg);
+    
 }
 
 .outline-none {
@@ -589,6 +589,7 @@ input{
         border: 1px solid var(--lime-100) !important;
         border-radius: 48px;
         padding: 16px 24px;
+        background-color: var(--input-bg) !important;
     }
 
     .email-box {
@@ -616,6 +617,7 @@ input{
 
     .input-box {
         border: 1px solid var(--lime-100);
+        background-color: var(--input-bg);
     }
 
     .pt-sm-60 {
@@ -652,10 +654,10 @@ input{
     .max-w-md-529 {
         max-width: 529px !important;
     }
-    .pl-40{
+    .pl-md-40{
         padding-left: 40px !important;    
     }
-    .pr-75{
+    .pr-md-75{
         padding-right: 75px !important;
     }
 }
