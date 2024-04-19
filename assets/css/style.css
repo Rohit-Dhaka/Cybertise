@@ -62,6 +62,7 @@
     padding-bottom: 62px;
 }
 
+
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
 .mt-one {
@@ -448,7 +449,7 @@
 }
 
 .outline-none {
-    outline: none;
+    outline: none;   
 }
 
 .email-box {
@@ -650,6 +651,12 @@ input{
     }
     .max-w-md-529 {
         max-width: 529px !important;
+    }
+    .pl-40{
+        padding-left: 40px !important;    
+    }
+    .pr-75{
+        padding-right: 75px !important;
     }
 }
 
